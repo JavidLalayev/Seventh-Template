@@ -1,0 +1,1621 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- https://codepen.io/amandalouise/pen/PNzeGx -->
+	<title>Travel Page</title>
+
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script> -->
+
+  	<link rel="stylesheet" href="colorlib-regform-18/css/style.css">
+
+  	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> -->
+
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  	<link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+
+
+	<script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+
+  	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link href="theme/css/t-datepicker.min.css" rel="stylesheet" type="text/css">
+	<link href="theme/css/themes/t-datepicker-bluegrey.css" rel="stylesheet" type="text/css">
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css">
+
+
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  	<!-- <script src="your-part/jquery.min.js"></script> -->
+  	<script src="https://code.jquery.com/jquery.min.js"></script>
+
+	<script src="theme/js/t-datepicker.min.js"></script>
+
+
+
+ 	<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+	 
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+	
+
+
+	<script src="cJs/cScript2.js"></script>
+	<script src="cJs/cScript.js"></script>
+	<script src="cJs/scriptForDateTimePicker.js"></script>
+	<script src="cJs/selectInputScript.js"></script>
+	<link rel="stylesheet" type="text/css" href="cCss/cStyle.css">
+	<link rel="stylesheet" type="text/css" href="cCss/cStyle2.css">
+	<link rel="stylesheet" type="text/css" href="cCss/cStyle2.css">
+	<link rel="stylesheet" type="text/css" href="cCss/cssForSelectInput.css">
+</head>
+<body>
+
+
+	<script type="text/javascript">
+  	  AOS.init({
+	  duration: 1200,
+	})
+	</script>
+
+	
+
+
+	<div class="c-header">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/animejs@2.2.0/anime.js"></script>
+
+<!-- <script src="script.js"></script> -->
+<div class="anim">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 800"><g fill="none" fill-rule="evenodd"><path stroke="#31B495" d="M781.02 488.77v69.78c0 1.08-.88 1.96-1.97 1.96l-135.12-.04c-1.09 0-2.6.62-3.38 1.39l-39.23 38.96a5.52 5.52 0 0 1-3.37 1.4h-75.38a1.97 1.97 0 0 1-1.97-1.97v-33.5"/><path stroke="#F4D21F" d="M674.88 355.57l45.54-45.24a5.42 5.42 0 0 0 1.39-3.35l-.06-10.38c0-1.08-.63-2.58-1.4-3.35l-43.38-43.07a1.94 1.94 0 0 1 0-2.77l82.83-82.25a5.52 5.52 0 0 1 3.37-1.4l44.94.1c1.08 0 2.6-.62 3.37-1.37L952.5 22.65"/><path stroke="#1AACA8" d="M507-76.68v265.47a4 4 0 0 0 4 3.99H566c1.08 0 1.97.88 1.97 1.96v147.5c0 1.08-.63 2.59-1.4 3.35l-47.9 47.4a5.45 5.45 0 0 0-1.4 3.34c0 2.25.64 3.76 1.4 4.53l53.82 53.26c.77.76 1.76 1.39 2.19 1.39.43 0 .79.88.79 1.96v70.17c0 1.07-.89 1.96-1.97 1.96l-85.81-.04c-1.09 0-2.6.62-3.38 1.39l-1.55 1.54a5.52 5.52 0 0 1-3.38 1.4h-9.29"/><path stroke="#1F8C43" d="M8 127.82v391.06a4.04 4.04 0 0 0 4 4.04L140.8 524"/><path stroke="#1AA5D0" d="M894.01 374l49.8-49.44a5.52 5.52 0 0 1 3.37-1.4h92.41c1.09 0 2.6.63 3.38 1.4l27.18 26.99"/><path stroke="#1AA5D0" d="M894.01 374l49.8-49.44a5.52 5.52 0 0 1 3.37-1.4h92.41c1.09 0 2.6.63 3.38 1.4l27.18 26.99"/><path stroke="#1F8C43" d="M755.16 213.9l70.82.04c1.08 0 2.6-.63 3.37-1.4l91.61-90.97a5.52 5.52 0 0 1 3.37-1.39h77.07l-71.29-72.13a5.45 5.45 0 0 1-1.4-3.35V16.87"/><path stroke="#9DCA40" d="M261.78-52.44l11.16 11.08c.77.77 1.4 2.28 1.4 3.35V-5L156.7 111.03l-85.4 84.8a5.45 5.45 0 0 0-1.4 3.35v100.67c0 1.08.89 1.96 1.97 1.96h50.4c1.09 0 1.98.88 1.98 1.96l.07 26.92c0 1.07.9 1.96 1.98 1.96l335.73.13c1.09 0 1.98.88 1.98 1.96v36.79l-42.99 43.78a5.52 5.52 0 0 1-3.37 1.4H385.2"/><path stroke="#DA5A98" d="M564.8 549.64v17.76c0 1.08-.64 2.59-1.4 3.35L382.28 750.6a5.52 5.52 0 0 1-3.38 1.39h-109.1c-1.09 0-1.97.88-1.97 1.96v23.37c0 1.07-.9 1.96-1.98 1.96h-83.54c-1.08 0-1.97.88-1.97 1.96v45.8c0 1.07.89 1.95 1.97 1.95h29.89c1.08 0 1.97.88 1.97 1.96v51.07c0 1.08.63 2.59 1.4 3.35l10.32 10.25c.77.76 2.29 1.39 3.37 1.39h111.77c1.09 0 1.34.62.57 1.39M482.82 656H630.9"/><path stroke="#E5683E" d="M440.53 245.87l-31.7 31.48a5.52 5.52 0 0 1-3.37 1.39h-62.37c-1.09 0-2.6.62-3.38 1.39l-2.68 3.66-264.59.02c-1.08 0-2.6-.63-3.37-1.4l-47.3-46.97a5.52 5.52 0 0 0-3.37-1.39h-57.47l-1.12-34.61c0-1.08-.63-2.59-1.4-3.35l-66.54-65.94"/><path stroke="#9F83B6" d="M705.31 221.73h7.83c1.09 0 2.6.63 3.37 1.4l45.8 45.6c.78.76 1.4 2.27 1.4 3.35v13.94c0 1.08.46 1.96 1.03 1.98.56 0 1.03.9 1.03 1.98v10.77l-.15 110.84c0 1.08-.89 1.96-1.98 1.96H628.32c-1.08 0-2.6-.63-3.37-1.4l-12.2-12.12a5.52 5.52 0 0 0-3.38-1.39h-46.18a2 2 0 0 0-2 1.96l-.17 26.74c0 1.08-.63 2.59-1.4 3.35l-8.82 8.76a5.52 5.52 0 0 1-3.37 1.39l-26.65-.06c-1.09 0-2.6.62-3.38 1.39l-48.1 47.78a5.52 5.52 0 0 1-3.38 1.39h-16.37l-79.45-.02c-1.09 0-2.6.63-3.36 1.39L220.71 639.06a5.47 5.47 0 0 1-3.35 1.4H31.06"/><path stroke="#BC6D21" d="M145.43 99.41L289.6 243.5c.77.76 2.29 1.39 3.37 1.39h146.76c1.09 0 2.6.62 3.38 1.39l31.93 31.71c.77.77 1.4 2.27 1.4 3.35V474.1c0 1.08-.63 2.59-1.4 3.35l-7.6 7.54a5.52 5.52 0 0 1-3.36 1.4h-20.62l-20.67 20.97-2.78 2.78L289.37 640a5.45 5.45 0 0 0-1.4 3.35l.16 177.85"/><path stroke="#DA1817" d="M318.82 380.62h94.88c1.09 0 2.6.63 3.38 1.39l14.97 14.87c.77.76 2.29 1.39 3.37 1.39h72.99c1.08 0 2.6.63 3.35 1.39l58.57 58.53c.77.77 2.27 1.4 3.35 1.4h103.37c1.08 0 1.97-.89 1.97-1.97v-14.7c0-1.09-.89-1.97-1.97-1.97l-6.7.02H630.1a1.97 1.97 0 0 1-1.97-1.96v-57c0-1.08-.63-2.59-1.4-3.35l-14.58-14.48a5.45 5.45 0 0 1-1.4-3.35v-17.3c0-1.07-.63-2.58-1.4-3.34L597 327.92a5.52 5.52 0 0 0-3.37-1.39h-17.4c-1.09 0-2.6-.62-3.38-1.39l-41.8-41.5a5.52 5.52 0 0 0-3.37-1.4h-41.34"/><path stroke="#9F9FA0"/><path stroke="#74BB63" d="M855.2 194.4h59.84c1.09 0 1.97.89 1.97 1.96v28.74c0 1.08.64 2.59 1.4 3.35l50.96 50.6c.77.76 1.4 2.27 1.4 3.35v101.47l105.2 104.27"/><path stroke="#DA5A98" d="M638.46 305.73L651 293.29c.77-.74.77-2 0-2.76l-31.35-31.13c-.76-.74-.76-2 0-2.76l18.53-18.4a5.52 5.52 0 0 1 3.37-1.39l160.41-.2 423.37 1.2c1.08 0 1.97.89 1.97 1.96v71.5"/><path stroke="#BC6D21" d="M438.61 486.03h-18.54c-1.08 0-2.6-.63-3.37-1.4l-74.94-74.41a5.52 5.52 0 0 0-3.37-1.4h-38.57c-1.08 0-2.6-.62-3.37-1.38l-47-46.68-36.58-.04-57 71.59a5.45 5.45 0 0 0-1.4 3.35v23.9"/><path stroke="#74BB63" d="M882.06 358.97l-46.92 46.6a5.52 5.52 0 0 1-3.38 1.39h-94.64c-1.09 0-2.6-.63-3.38-1.4l-30.6-30.33a5.52 5.52 0 0 0-3.36-1.4l-34.94.04c-1.08 0-2.6.63-3.37 1.4l-29.57 29.36a5.52 5.52 0 0 1-3.37 1.39l-14.55-14.35a5.63 5.63 0 0 0-3.42-1.4l-156.97-.25c-1.11 0-2.65.63-3.43 1.4l-27.85 27.61a5.52 5.52 0 0 1-3.38 1.4H-23.82l-88.65.2-12.44 12.35"/><path stroke="#2283BC" d="M292.9 643.74l59.56-59.12a5.52 5.52 0 0 1 3.37-1.39h23.93c1.08 0 2.6-.63 3.37-1.39l46.53-46.21a5.52 5.52 0 0 1 3.38-1.4h33.53l153.67-.01c1.08 0 1.97-.88 1.97-1.96V420.01c0-1.07-.63-2.58-1.4-3.35l-38.64-38.37a5.45 5.45 0 0 1-1.4-3.35v-51.52c0-1.08-.64-2.59-1.4-3.35L468.91 210.39a5.52 5.52 0 0 0-3.38-1.4l-180.49.2"/><path stroke="#DA5A98" d="M484.13 548.71h-37.09c-1.08 0-2.6.63-3.37 1.4l-69.02 68.54c-.77.76-.77 2 0 2.76l28.09 27.78c.77.76 2.29 1.39 3.37 1.39h62.41"/><path stroke="#31B495" d="M520.82 561.7v-4.74c0-1.08-.89-1.96-1.98-1.96h-13.21c-1.09 0-2.6-.62-3.37-1.39l-43.36-42.88a5.45 5.45 0 0 1-1.4-3.35v-190.4c0-1.08.63-2.6 1.4-3.36l20.89-20.74a5.45 5.45 0 0 0 1.4-3.35v-95.4c0-1.08-.63-2.58-1.4-3.35L292.4 4.7l-.6-40.88c0-1.08-.62-2.58-1.4-3.35L278.8-51.07"/><path stroke="#1EB2D8" d="M275.76 745h99.28c1.09 0 2.6-.63 3.38-1.4l174.33-172.75a5.52 5.52 0 0 1 3.38-1.4h46.75c1.08 0 2.6-.62 3.35-1.38l51.47-51.46a5.42 5.42 0 0 0 1.38-3.35V311.29c0-1.07-.63-2.58-1.4-3.35l-51.84-51.3a5.52 5.52 0 0 0-3.38-1.4h-17.95a1.97 1.97 0 0 1-1.97-1.95v-44.47c0-1.07-.89-1.96-1.97-1.96h-88.63a1.97 1.97 0 0 1-1.97-1.96v-19.2c0-1.07-.64-2.58-1.4-3.34L309.87 4.92"/><path stroke="#F4D21F" d="M1002.65 123.83H926.5c-1.08 0-2.6.62-3.37 1.39l-92.28 91.46a5.52 5.52 0 0 1-3.37 1.39l-131.87-.08c-1.09 0-2.6.63-3.37 1.37l-51.9 51.19c-.77.76-.77 2 0 2.76l21.22 21.1c.77.76 1.4 2.27 1.4 3.35v15.69"/><path stroke="#BE2F39" d="M672.51 437.64h54.25c1.08 0 2.6.63 3.37 1.4l49.04 48.7c.77.76 2.29 1.38 3.37 1.38h45.16c1.08 0 2.6-.62 3.37-1.39L914.39 405a5.52 5.52 0 0 1 3.37-1.4h42.22c1.08 0 2.6.63 3.37 1.4l100.8 100.1"/><path stroke="#E5683E" d="M672.51 434.31h55.63c1.08 0 2.6.63 3.37 1.4l49.14 48.8c.77.76 2.29 1.38 3.37 1.38l41.9-.04c1.08 0 2.6-.62 3.37-1.39l62.08-61.68a5.45 5.45 0 0 0 1.4-3.35l-.1-268.18c0-1.08-.63-2.59-1.4-3.35l-99.8-99.28a5.52 5.52 0 0 0-3.37-1.39H422.62c-1.08 0-2.6.63-3.37 1.4L260.28 206.3a5.52 5.52 0 0 1-3.38 1.39H127.3c-1.08 0-2.6.62-3.37 1.39l-36.71 36.45a5.45 5.45 0 0 0-1.4 3.35v185.1"/><path stroke="#1EB2D8" d="M410.1 713.73l17.53 17.42c.77.76 2.29 1.39 3.37 1.39h42.02c1.09 0 2.6-.63 3.37-1.4l26.02-25.83 123.2-.31"/><path/><path stroke="#2283BC" d="M307.34 907.08c.77-.77.52-1.4-.57-1.4H108.29a1.97 1.97 0 0 1-1.98-1.95V743.59c0-1.08.9-1.96 1.98-1.96h264.38c1.09 0 2.6-.63 3.38-1.4l23.75-23.58c.77-.76.77-2 0-2.76l-80.84-80.1c-.77-.76-.51-1.4.57-1.4h137.53c1.09 0 2.6-.62 3.38-1.38l53.63-53.26a5.52 5.52 0 0 1 3.37-1.4l88.57-.2c1.09 0 2.6-.62 3.38-1.38l55.6-55.22a5.45 5.45 0 0 0 1.4-3.35V409.93c0-1.08.9-1.96 1.98-1.96h29c1.08 0 2.6-.63 3.37-1.4l43.32-43.01a5.52 5.52 0 0 1 3.37-1.4h6.11c1.09 0 2.6-.62 3.38-1.38l53.12-52.76a5.52 5.52 0 0 1 3.37-1.39h13.6c1.08 0 2.6.63 3.37 1.4L892.79 370c.77.77 2.29 1.4 3.37 1.4h74.06c1.08 0 2.6.62 3.37 1.38l93.97 93.5"/><path stroke="#E6632A" d="M647.56 429.46v-33.62c0-1.08-.63-2.59-1.4-3.35l-31.45-31.22a5.52 5.52 0 0 0-3.37-1.4h-36.87c-1.08 0-2.6.63-3.37 1.4l-74.35 73.83a5.52 5.52 0 0 1-3.37 1.39H440.9a1.97 1.97 0 0 1-1.98-1.96v-71.5c0-1.08-.88-1.96-1.97-1.96H9.3c-1.08 0-2.6.63-3.37 1.4l-37.9 37.62a5.52 5.52 0 0 1-3.37 1.4h-57c-1.1 0-2.61.62-3.38 1.38l-13.2 13.1a5.52 5.52 0 0 1-3.37 1.4h-13.2"/><path stroke="#F4D21F" d="M219.9 357h144.49l76.54.13c1.08 0 1.97.88 1.97 1.96v71.7c0 1.08.89 1.96 1.97 1.96h46.36c1.08 0 2.6-.63 3.37-1.4l74.35-74a5.52 5.52 0 0 1 3.37-1.4h192.33c1.09 0 2.6-.62 3.37-1.38l43.58-43.28a5.52 5.52 0 0 1 3.37-1.39h10.6c1.08 0 2.6.63 3.37 1.4l62.65 62.2c.77.77 2.29 1.4 3.37 1.4h73.87c1.09 0 2.6.63 3.38 1.4l94.12 93.47 9.27.57c.84 0 2.17-.62 2.93-1.39l104.08-89.36a1.97 1.97 0 0 1 2.78 0l6.3 6.25"/><path stroke="#9DCA40" d="M599.92 564.19a6.6 6.6 0 0 0 4.04-1.67l47.94-47.6a6.5 6.5 0 0 0 1.67-4.01V313.84c0-1.3-.75-3.1-1.67-4.02l-47.94-47.6a6.6 6.6 0 0 0-4.04-1.66h-97.84a6.6 6.6 0 0 0-4.05 1.66l-47.93 47.6a6.5 6.5 0 0 0-1.68 4.02v197.07c0 1.29.75 3.1 1.68 4.01l47.93 47.6a6.6 6.6 0 0 0 4.05 1.67h97.84z"/><path stroke="#1EB2D8" d="M648.25 527.17v33.3c0 1.08-.63 2.58-1.4 3.35l-87.37 86.76c-.77.76-.51 1.39.57 1.39h70.82"/><path stroke="#BC6D21" d="M476.04 273.32v-18.86c0-1.08-.63-2.59-1.4-3.35l-30.9-30.68a5.52 5.52 0 0 0-3.37-1.4H274.62"/><path stroke="#9F83B6" d="M923.43 372.6V119.09c0-1.07-.64-2.58-1.4-3.34L757.4-47.74a5.52 5.52 0 0 0-3.37-1.39H351.57c-1.09 0-2.6.63-3.38 1.4L310.5-10.3"/><path stroke="#ED8E3F" d="M317-49.77L304.42-37.3a5.58 5.58 0 0 0-1.42 3.35l-.36 21.45a5.3 5.3 0 0 0 1.36 3.35L493.36 178.9c.77.76 1.4 2.27 1.4 3.35v18.41c0 1.08.89 1.96 1.97 1.96h87.86c1.09 0 1.98.88 1.98 1.96v34.67c0 1.08.88 1.96 1.97 1.96h23.3c1.08 0 2.6.63 3.37 1.4l46.16 45.83c.77.77 1.4 2.28 1.4 3.35v138.64l.07 84.4c0 1.08-.63 2.6-1.38 3.35l-53.63 53.27a5.52 5.52 0 0 1-3.37 1.39H557.9c-1.08 0-2.6.63-3.37 1.39L380.57 746.98a5.52 5.52 0 0 1-3.38 1.39H112.47c-1.09 0-1.97.88-1.97 1.96v93.24c0 1.08-.9 1.96-1.98 1.96h-224.54"/><path stroke="#DA5A98" d="M415.07 612.97l63.3-62.86a5.52 5.52 0 0 1 3.37-1.4h124.67c1.08 0 2.6-.6 3.37-1.37l28.23-27.83a5.35 5.35 0 0 0 1.4-3.33V478.2c0-1.07.89-1.96 1.97-1.96H694c1.09 0 1.97-.88 1.97-1.95v-52.11c0-1.08.64-2.59 1.4-3.35l29.57-29.37a5.45 5.45 0 0 0 1.4-3.35v-76c0-1.08.9-1.96 1.98-1.96h37.9a4 4 0 0 0 4-4v-29.3c0-1.08.63-2.59 1.4-3.35l35.35-35"/><path stroke="#1AA5D0" d="M893.1 374.7L847.5 420a5.52 5.52 0 0 1-3.37 1.38H618.66c-1.09 0-2.6-.62-3.37-1.39l-81.65-81.08a5.52 5.52 0 0 0-3.37-1.39H384.49c-1.08 0-2.6.63-3.37 1.4l-17.14 17.02"/><path stroke="#55B549" d="M288.52 640.2h-46.9c-1.09 0-1.98.88-1.98 1.95v26.65c0 1.07-.89 1.95-1.97 1.95h-89.32"/><path stroke="#D3C452" d="M281.34 229.6l9.65 9.59c.77.76 2.29 1.39 3.37 1.39l146.76-.2c1.09 0 2.6.63 3.38 1.37l115.95 114c.77.76.77 1.99 0 2.75l-37.2 37.05a1.96 1.96 0 0 0 0 2.78l49.62 49.28c.77.77 2.3 1.4 3.38 1.4h138.28c1.08 0 2.6.62 3.37 1.39l37.26 37c.77.76 2.3 1.4 3.38 1.4h21.7"/><path stroke="#9DCA40" d="M-116.02 841.87h216.77c1.09 0 1.97-.89 1.97-1.96v-99.83c0-1.08.9-1.96 1.98-1.96h266.24c1.08 0 2.6-.62 3.37-1.39l20.18-20.04c.77-.76.77-2.02 0-2.76l-78.7-78.2a5.45 5.45 0 0 1-1.4-3.35v-1.57c0-1.07.88-1.96 1.97-1.96l139.22.02c1.09 0 2.6-.62 3.38-1.39l53.7-53.48a4.86 4.86 0 0 1 2.8-1.39c.76 0 1.41-.88 1.41-1.96v-6.62"/><path stroke="#B00D7C" d="M317.92 257.82l73.16 72.65c.77.77 1.4 2.27 1.4 3.35v45.25c0 1.08.63 2.59 1.4 3.35l12.02 11.93c.77.77 2.28 1.4 3.37 1.4h9.86c1.09 0 2.6-.63 3.38-1.4l6.29-6.25a5.52 5.52 0 0 1 3.37-1.39h85.81c1.08 0 2.6-.62 3.37-1.39l63.1-62.66a5.52 5.52 0 0 1 3.38-1.4h161.56c1.08 0 1.97.89 1.97 1.96v178.66c0 1.07-.63 2.58-1.4 3.35l-11.42 11.34a5.52 5.52 0 0 1-3.38 1.39H529.03a1.97 1.97 0 0 1-1.98-1.96v-73.07c0-1.07-.88-1.96-1.97-1.96h-88.26a1.97 1.97 0 0 1-1.97-1.95V406.5c0-1.08-.89-1.96-1.97-1.96-1.99 0-3.5-.63-4.28-1.4l-7.44-7.38"/><path stroke="#DA5A98" d="M650.42-78.35v211.36c0 1.08.63 2.59 1.4 3.35l46.73 46.4c.77.77 1.4 2.28 1.4 3.36v35.79l-2.49-.14c-.75 0-1.97.63-2.74 1.4l-18.32 18.19a5.45 5.45 0 0 0-1.4 3.35v116.95c0 1.07.63 2.58 1.38 3.35l46.53 46.58a5.42 5.42 0 0 1 1.38 3.35l-.02 30.34c0 1.08-.63 2.59-1.4 3.35l-4.91 4.88a5.52 5.52 0 0 1-3.37 1.4H599.52c-1.08 0-1.97.87-1.97 1.95v36c0 1.08-.89 1.96-1.97 1.96h-92.71c-1.09 0-2.6.63-3.38 1.4l-19.58 19.45a5.52 5.52 0 0 1-3.38 1.39h-63.61"/><path stroke="#1EB2D8" d="M281.48 745v84.33c0 1.08-.89 1.96-1.97 1.96h-57.48c-1.09 0-1.98.88-1.98 1.96v10.36c0 1.08-.88 1.96-1.97 1.96H110.52"/><path stroke="#F5C739" d="M10.95 362.32l113.4 112.62c.78.77 2.3 1.4 3.38 1.4h36.12c1.08 0 2.6.62 3.37 1.38l205.45 204.03c.77.76 2.29 1.39 3.37 1.39l62.74.03h29.53c1.09 0 2.6.63 3.37 1.4l16.36 16.23c.77.77 2.29 1.4 3.37 1.4h134.34"/><path stroke="#31B495" d="M275.82 590.44l24.44-24.27a5.52 5.52 0 0 1 3.37-1.4h121.52c1.08 0 2.6.63 3.37 1.4l34.32 34.08c.77.77 2.3 1.4 3.38 1.4h54.36"/><path stroke="#AD7D20" d="M633.41 278.74l-21.36-21.22a5.45 5.45 0 0 1-1.4-3.35V-78.58"/><path stroke="#1F8C43" d="M754.4 192.02v20.11c0 1.08-.9 1.96-1.98 1.96h-94.49c-1.08 0-2.6.63-3.37 1.4l-50.28 49.93a5.45 5.45 0 0 0-1.4 3.35v56.41c0 1.08.63 2.59 1.4 3.35l10.63 10.56c.77.76 1.4 2.27 1.4 3.35v121.45c0 1.08-.89 1.96-1.97 1.96H429.6c-1.08 0-2.6-.62-3.37-1.39l-21.2-21.06-15.77 14.8a5.52 5.52 0 0 1-3.37 1.38H282.15c-1.08 0-2.6.63-3.37 1.37l-62.1 61.3a5.5 5.5 0 0 1-3.37 1.37h-69.85c-1.09 0-2.6.63-3.37 1.4l-68.22 67.73a5.52 5.52 0 0 1-3.37 1.4H34.1c-1.09 0-2.6.62-3.38 1.38l-61.64 61.22a5.45 5.45 0 0 0-1.4 3.35v98.02c0 1.08-.89 1.96-1.97 1.96h-30.76c-1.08 0-2.6.63-3.37 1.4l-48.29 47.95"/><path stroke="#74BB63" d="M184.55 422.03v34.09c0 1.07-.63 2.58-1.4 3.35l-56.48 55.88a5.52 5.52 0 0 1-3.37 1.4H-34.6"/><path stroke="#E5683E" d="M980.12 416.59l-15.05-14.95a5.52 5.52 0 0 0-3.38-1.4h-46.04c-1.08 0-2.6.63-3.37 1.4l-14.5 14.4c-.77.76-1.4.5-1.4-.57v-34.93c0-1.08-.63-2.58-1.4-3.35l-2.48-2.47"/><path stroke="#DA5A98" d="M826.77 238.25v54.43c0 1.08.63 2.59 1.4 3.35l86.38 85.78c.77.77 2.29 1.4 3.37 1.4h98.61c1.09 0 2.6-.63 3.36-1.4l22.6-22.8a5.47 5.47 0 0 1 3.36-1.39h106.38c1.08 0 1.97-.88 1.97-1.96l.04-95.24c0-1.08.89-1.96 1.97-1.96h39.02c1.09 0 1.97.88 1.97 1.96v48.1"/><path stroke="#E6632A" d="M12.87 361.05h-5c-1.1 0-2.61-.63-3.38-1.4l-17.72-17.58a5.52 5.52 0 0 0-3.37-1.4h-16.9c-1.09 0-2.6-.62-3.38-1.38l-55.64-55.26a5.52 5.52 0 0 0-3.38-1.4h-15.19"/><path stroke="#3EB373" d="M959.23 126.08l19.2 19.06c.76.76 2.28 1.39 3.36 1.39h177.42c1.09 0 1.97.88 1.97 1.96v100.84a3 3 0 0 0 3 3h36.42c1.08 0 1.97.88 1.97 1.96v54.65"/><path stroke="#2765B0" d="M33.17 798.75h242.12c1.08 0 1.97-.88 1.97-1.96V672.9c0-1.08-.89-1.96-1.97-1.96h-30.12a1.97 1.97 0 0 1-1.98-1.96v-26.76c0-1.07-.88-1.96-1.97-1.96h-20.87"/><path stroke="#EB9D12" d="M458.48 496.1h9.55c1.09 0 2.6-.63 3.37-1.4l48.23-47.83a5.52 5.52 0 0 1 3.38-1.39h24.26c1.08 0 2.6.63 3.37 1.39l23.26 23.1c.77.76 2.29 1.39 3.37 1.39h111.06c1.09 0 1.97-.88 1.97-1.96v-54.46c0-1.08-.63-2.59-1.4-3.33l-20.35-20.04-2.8-2.76-1.17-1.16a5.52 5.52 0 0 0-3.37-1.39h-11.66a1.97 1.97 0 0 1-1.97-1.96V310.6c0-1.08.88-1.96 1.97-1.96h77.38"/><path stroke="#9DCA40" d="M-34.94 402.19v111.19c0 1.07.63 2.58 1.4 3.35l49.06 48.71c.76.77 2.28 1.4 3.37 1.4h21.8c1.08 0 2.6.62 3.37 1.39l113 112.22c.78.77 2.3 1.4 3.38 1.4h170.6c1.08 0 1.97.87 1.97 1.95v60.41"/></g></svg>
+</div>
+
+
+	<script>
+		var pathEls = document.querySelectorAll('path');
+			for (var i = 0; i < pathEls.length; i++) {
+			  var pathEl = pathEls[i];
+			  var offset = anime.setDashoffset(pathEl);
+			  pathEl.setAttribute('stroke-dashoffset', offset);
+			  anime({
+			    targets: pathEl,
+			    strokeDashoffset: [offset, 0],
+			    duration: anime.random(1000, 3000),
+			    delay: anime.random(0, 2000),
+			    loop: true,
+			    direction: 'alternate',
+			    easing: 'easeInOutSine',
+			    autoplay: true
+			  });
+			}
+	</script>
+
+
+
+		<nav class="navbar navbar-inverse cnav navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		      </button>
+		      <a class="navbar-brand c-brend" href="#">
+		      	<img id="myImg2" src="cImg/47.png" width="40px" height="40px">
+		      </a>
+
+		      	<div id="myModal" class="modal">
+				  <span class="close">&times;</span>
+				  <img class="modal-content" id="img01">
+				  <div id="caption"></div>
+				</div>
+
+
+				<script>
+					// Get the modal
+					var cmodal = document.getElementById('myModal');
+
+					// Get the image and insert it inside the modal - use its "alt" text as a caption
+					var cimg = document.getElementById('myImg2');
+					var cmodalImg = document.getElementById("img01");
+					var ccaptionText = document.getElementById("caption");
+					cimg.onclick = function(){
+					  cmodal.style.display = "block";
+					  cmodalImg.src = this.src;
+					  ccaptionText.innerHTML = this.alt;
+					}
+
+					// Get the <span> element that closes the modal
+					var cspan = document.getElementsByClassName("close")[0];
+
+					// When the user clicks on <span> (x), close the modal
+					cspan.onclick = function() { 
+					  cmodal.style.display = "none";
+					}
+
+					cmodal.onclick = function() {
+					  cmodal.style.display = "none"; 
+					}
+				</script>
+
+
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav">
+		        <li class="cNav-item"><a href="#" class="cNav-item">Ana Səhifə</a></li>
+		        <li class="dropdown cNav-item">
+		          <a class="dropdown-toggle cNav-item" data-toggle="dropdown" href="#">Turlar <span class="caret"></span></a>
+		          <ul class="dropdown-menu c-nav-dropdown">
+		            <li class="c-nav-dropdown"><a class="cNav-item" href="travel2(Orxan)/index.html">Təyyarə Turları</a></li>
+		            <br>
+		            <li class="c-nav-dropdown"><a class="cNav-item" href="travel1(Orxan)/oindex.html">Qatar Turları (Ölkə daxili)</a></li>
+		            <br>
+		            <li class="c-nav-dropdown"><a class="cNav-item" href="#">Qatar Turları (Ölkə xarici)</a></li>
+		          </ul>
+		        </li>
+		        <li class="cNav-item"><a href="#AboutUs" class="cNav-item">Haqqımızda</a></li>
+		        <li class="cNav-item"><a href="#c-Footer" class="cNav-item">Əlaqə</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="cNav-item" id="c-myBtn-login">
+		        	<a href="#" class="cNav-item">
+		        		<span class="glyphicon glyphicon-user">
+		        			
+		        		</span>
+		        		 Daxil ol</a>
+		        </li>
+		        <li class="cNav-item" id="c-myBtn-login2"><a href="#"class="cNav-item" ><span class="glyphicon glyphicon-log-in"></span> Qeydiyyat</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+
+
+		<p class="main-header" data-aos="fade-flip">JavOr Travel</p>
+
+
+		<div class="header-content" data-aos="fade-up">
+				
+
+			<div class="t-datepicker c-dtPicker">
+			  <div class="t-check-in c-dtPicker2">Gedəcəyiniz günü seçin</div>
+			  <div class="t-check-out c-dtPicker3">Gələcəyiniz günü seçin</div>
+			</div>
+
+					    
+			
+			      <div class="cdropdown c-select">
+				        <div class="cselect">
+					          <span style="color: white!important; opacity: 1!important;" >Neçə Nəfərlik Səyahət</span>
+					          <i class="fa fa-chevron-left c-da"></i>
+				        </div>
+				        <input type="hidden" name="gender">
+				        <ul class="dropdown-menu">
+					          <li id="male">1</li>
+					          <li id="male">2</li>
+					          <li id="male">3</li>
+					          <li id="male">4</li>
+					          <li id="male">5</li>
+					          <li id="male">6</li>
+					          <li id="male">7</li>
+					          <li id="male">8</li>
+				        </ul>
+			      </div>
+
+
+			  
+			  	<!-- <span class="msg"></span> -->
+
+
+			
+
+			<script>
+				/*Dropdown Menu*/
+				$('.cdropdown').click(function () {
+				        $(this).attr('tabindex', 1).focus();
+				        $(this).toggleClass('active');
+				        $(this).find('.dropdown-menu').slideToggle(300);
+				    });
+				    $('.cdropdown').focusout(function () {
+				        $(this).removeClass('active');
+				        $(this).find('.dropdown-menu').slideUp(300);
+				    });
+				    $('.cdropdown .dropdown-menu li').click(function () {
+				        $(this).parents('.cdropdown').find('span').text($(this).text());
+				        $(this).parents('.cdropdown').find('input').attr('value', $(this).attr('id'));
+				    });
+				/*End Dropdown Menu*/
+
+
+				$('.cdropdown-menu li').click(function () {
+				  var input = '<strong>' + $(this).parents('.cdropdown').find('input').val() + '</strong>',
+				      msg = '<span class="msg">Hidden input value: ';
+				  $('.msg').html(msg + input + '</span>');
+				}); 
+			</script>
+
+
+
+				<a class="btn c-header-button" href="#Turlar">Turu seçin</a>
+
+
+
+		</div>
+	</div>
+
+
+
+
+<div class="c-main2-color" id="AboutUs" data-aos="fade-up">
+	<div class="c-main2" >
+		<p class="c-main0-header">Haqqımızda</p>
+
+		<div class="c-main2-line"></div>
+
+		
+			<p class="c-main2-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit animlorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrut in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<div class="mapouter"><div class="gmap_canvas"><iframe width="800" height="395" id="gmap_canvas" src="https://maps.google.com/maps?q=28%20may%20metro&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de/webdesign/"></a></div><style>.mapouter{text-align:right;height:395px;max-width:800px;}.gmap_canvas {overflow:hidden;background:none!important;height:395px;max-width:800px;}</style></div>
+		
+			
+	</div>
+</div>
+	
+
+
+	<div class="c-main3" >
+		<div class="c-main3-qaralti"></div>
+	</div>
+
+
+
+
+
+<div class="c-main0-color" data-aos="fade-left">
+	<div class="c-main0">
+		<p class="c-main0-header">Xidmətlərimiz</p>
+
+		<div class="c-main0-line"></div>
+
+		<div class="col-sm-4 c-main0-content">
+
+			<div class="c-main0-icon-place">
+			
+				<div class="c-icon-divi">
+
+					<i class="fa fa-bus c-main0-icon"></i>
+				</div>
+			</div> 
+			
+				
+
+
+			<p class="c-main0-content-header">Avtobusla Səyahət</p>
+
+			<p class="c-main0-content-content">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostr</p>
+
+		</div>
+
+		<div class="col-sm-4 c-main0-content">
+			<div class="c-main0-icon-place">
+			
+				<div class="c-icon-divi">
+
+					<i class="fa fa-train c-main0-icon"></i>
+				</div>
+			</div> 
+				
+
+
+			<p class="c-main0-content-header">Qatarla Səyahət</p>
+
+			<p class="c-main0-content-content">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostr</p>
+
+		</div>
+
+		<div class="col-sm-4 c-main0-content">
+			<div class="c-main0-icon-place">
+			
+				<div class="c-icon-divi">
+
+					<i class="fa fa-cab c-main0-icon"></i>
+				</div>
+			</div> 
+				
+
+
+			<p class="c-main0-content-header">Taksi Xidməti</p>
+
+			<p class="c-main0-content-content">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostr</p>
+
+		</div>
+
+		<div class="col-sm-4 c-main0-content">
+			<div class="c-main0-icon-place">
+			
+				<div class="c-icon-divi">
+
+					<i class="fa fa-bed c-main0-icon"></i>
+				</div>
+			</div> 
+				
+
+
+			<p class="c-main0-content-header">Rahat İsdirahət</p>
+
+			<p class="c-main0-content-content">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostr</p>
+
+		</div>
+
+		<div class="col-sm-4 c-main0-content">
+			<div class="c-main0-icon-place">
+			
+				<div class="c-icon-divi">
+
+					<i class="fa fa-home c-main0-icon"></i>
+				</div>
+			</div> 
+				
+
+			<p class="c-main0-content-header">Gözəl Otellər</p>
+
+			<p class="c-main0-content-content">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostr</p>
+
+		</div>
+
+		<div class="col-sm-4 c-main0-content">
+			<div class="c-main0-icon-place">
+			
+				<div class="c-icon-divi">
+
+					<i class="fa fa-credit-card c-main0-icon"></i>
+				</div>
+			</div> 
+				
+
+			<p class="c-main0-content-header">Onlayn Ödəniş</p>
+
+			<p class="c-main0-content-content">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostr</p>
+
+		</div>
+
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+	<div class="c-main4">
+		<div class="c-main3-qaralti"></div>
+	</div>
+
+
+
+	<div class="c-main1-screen" id="Turlar" data-aos = "fade-right">
+
+	<div class="c-main1-screen-inner">
+		<p class="c-main1-header">Turlar</p>
+
+		<p class="c-main1-line" style="margin-bottom: 60px; background-color: #3B71CE"></p>
+		
+		<div class="col-md-4 c-main1-col">
+			<div class="row">
+
+				<div class="c-row-inner">
+					<img src="cImg/42.jpg" width="100%" height="280px">
+
+					<p class="c-main1-header2">Qatar Turları (Ölkə Daxili)</p>
+
+					<p class="c-main1-content">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							ea commodo Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididu	
+					</p>
+
+					<hr>
+
+					<div class="c-main1-btnDiv">
+						<button class="btn c-main1-btn"><a href="travel1(Orxan)/oindex.html" class="c-btn-a">Daha Ətraflı</a></button>
+					</div>
+
+				</div>
+
+			</div>
+			
+		</div>
+
+		<div class="col-md-4 c-main1-col">
+			<div class="row">
+
+				<div class="c-row-inner">
+					<img src="cImg/43.jpg" width="100%" height="280px">
+
+					<p class="c-main1-header2">Qatar Turları (Ölkə Xarici)</p>
+
+					<p class="c-main1-content">
+					 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							ea commodo Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididu	 
+					 	
+					</p>
+
+					<hr>
+
+					<div class="c-main1-btnDiv">
+						<button class="btn c-main1-btn"><a href="#" class="c-btn-a">Daha Ətraflı</a></button>
+					</div>
+
+				</div>
+			
+			</div>
+			
+		</div>
+
+		<div class="col-md-4 c-main1-col">
+			<div class="row">
+
+				<div class="c-row-inner">
+					<img src="cImg/56.jpg" width="100%" height="280px">
+
+					<p class="c-main1-header2">Təyyarə Turları</p>
+
+					<p class="c-main1-content">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							ea commodo Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididu	
+					</p>
+
+					<hr>
+
+					<div class="c-main1-btnDiv">
+						<button class="btn c-main1-btn"><a href="travel2(Orxan)/index.html" class="c-btn-a">Daha Ətraflı</a></button>
+					</div>
+
+				</div>
+
+				
+			</div>
+			
+		</div>
+	</div>
+
+		
+
+	</div>
+
+
+	
+
+
+
+	<div class="c-main6">
+		<div class="c-main3-qaralti"></div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<div class="c-main7-color" data-aos="flip-down">
+
+
+
+
+
+		<div class="c-main7">
+			
+			<p class="c-main1-header">Məşhur Otellər</p>
+
+			<p class="c-main1-line c-main7-line"></p>		
+
+
+
+			<div class="col-md-6 c-main7-left">
+				
+				<div class="col-md-12 c-main7-right-content">
+					
+					<div class="col-xs-6">
+						<p class="c-main7-left-header ">Quba Rixos Oteli</p>
+
+						<p class="c-main7-left-content2">Lorem ipsum dolor sit amet, consecteididuntna aliqua. Ut enim ad </p>
+
+						<p style="margin-top: 20px;"><span class="c-main7-qiymet">200 AZN</span> <span class="c-main7-day"> - gecə</span> </p>
+					</div>
+					
+					<div class="c-main7-right-img col-xs-6">
+						<img src="cImg/40.jpg" width="100%" height="100%" style="float: right;" class="c-main7-right-img2">
+					</div>
+					
+
+				</div>
+
+
+
+				<div class="col-md-12 c-main7-right-content2">
+					
+					<div class="col-xs-6">
+						<p class="c-main7-left-header ">Şəki Palace Oteli</p>
+
+						<p class="c-main7-left-content2">Lorem ipsum dolor sit amet, consecteididuntna aliqua. Ut enim ad </p>
+
+						<p style="margin-top: 20px;"><span class="c-main7-qiymet">40 AZN</span> <span class="c-main7-day"> - gecə</span> </p>
+					</div>
+					
+
+					<div class="c-main7-right-img col-xs-6">
+						<img src="cImg/39.jpg" width="100%" height="100%" style="float: right;" class="c-main7-right-img2">
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+			<div class="col-md-6 c-main7-left">
+				
+				<div class="c-main7-left-content">
+					
+					<div class="c-yeke-img">
+					<img class="c-yeke-img2" src="cImg/38.jpg" width="100%" height="100%">
+				</div>
+
+					<p class="c-main7-left-header">Sakit Göl Oteli</p>
+
+					<p class="c-main7-left-content2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+
+					<p style="margin-top: 20px;"><span class="c-main7-qiymet">20 AZN</span><span class="c-main7-day"> - gecə</span></p>
+
+				</div>
+
+			</div>
+
+
+
+		</div>
+	</div>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="c-main6 c-main9" >
+		<div class="c-main3-qaralti"></div>
+	</div>
+
+
+
+
+
+
+	<div class="c-main11" data-aos = "fade-up">
+
+		<div class="c-main11-inner">
+			
+			<div class="col-md-4">
+				<div class="c-lampa-card">
+			
+					<div class="c-img-box-card">
+						<img src="cImg/51.jpg" width="100%"  height="100%">
+					</div>
+					
+					<div class="c-details-card">
+						<h1>Gəmi Turları (ölkə xarici)</h1>
+						<br><br>
+						<h4>Çox yaxında...</h4>
+					</div>
+			
+				</div>
+			</div>
+
+			
+			<div class="col-md-4">
+				<div class="c-lampa-card">
+				
+					<div class="c-img-box-card">
+						<img src="cImg/52.jpg" width="100%"  height="100%">
+					</div>
+					
+					<div class="c-details-card">
+						<h1>Avtobus Turları (Şəhər daxili)</h1>
+						<br><br>
+						<h4>Çox yaxında...</h4>
+					</div>
+				
+				</div>
+			</div>
+			
+			<div class="col-md-4">
+				<div class="c-lampa-card">
+					
+					<div class="c-img-box-card">
+						<img src="cImg/53.jpg" width="100%"  height="100%">
+					</div>
+					
+					<div class="c-details-card">
+						<h1>Gəmi Turları (ölkə daxili)</h1>
+						<br><br>
+						<h4>Çox yaxında...</h4>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+	<div class="c-main6 c-main19" >
+		<div class="c-main3-qaralti"></div>
+	</div>
+
+
+
+
+	<div class="c-main5-color" data-aos="fade-right">
+		<div class="c-main5">
+			
+			<p class="c-main1-header">Məşhur Tur Yerləri</p>
+
+			<p class="c-main1-line c-main5-line"></p>
+
+			
+			<div class="col-sm-6 c-main5-left1">
+				
+				<div class="c-main5-left1-div">
+					<img class="c-main5-left1-img" src="cImg/22.jpg" width="100%" height="100%">
+					
+					<p class="c-main5-left1-word" style="margin-left: -30px">Şəki</p>
+				</div>
+					
+			</div>
+
+
+
+
+			<div class="col-sm-6 c-main5-right1">
+				
+
+				<div class="col-md-12 c-main5-right2">
+					<img class="c-main5-left1-img" src="cImg/23.jpg" width="100%" height="100%">
+				
+					<p class="c-main5-right2-word">Lənkəran</p>
+				</div>
+
+
+
+
+				<div class="col-md-12 c-main5-right2">
+					
+					<img class="c-main5-left1-img" src="cImg/24.jpg" width="100%" height="100%">
+				
+					<p class="c-main5-right2-word">Quba</p>
+
+				</div>
+
+			</div>
+
+
+
+			<div class="col-sm-6 c-main5-right1">
+				
+				<div class="col-md-12 c-main5-right2">
+					
+					<img class="c-main5-left1-img" src="cImg/25.jpg" width="100%" height="100%">
+				
+					<p class="c-main5-right2-word">Qax</p>
+
+				</div>
+
+
+
+				<div class="col-md-12 c-main5-right2">
+					
+					<img class="c-main5-left1-img" src="cImg/21.jpg" width="100%" height="100%">
+				
+					<p class="c-main5-right2-word">Istanbul</p>
+
+				</div>
+
+			</div>
+
+
+
+			<div class="col-md-6 c-main5-left1">
+				
+				<div class="c-main5-left1-div">
+					<img class="c-main5-left1-img" src="cImg/26.jpg" width="100%" height="100%">
+					
+					<p class="c-main5-left1-word">Trabzon</p>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+		
+
+
+
+
+
+
+	<div class="c-main6 c-main8">
+		<div class="c-main3-qaralti"></div>
+	</div>
+
+
+
+
+
+
+
+	<div class="c-main7-color" data-aos="fade-right">
+		<div class="c-main7">
+		
+		<p class="c-main1-header">Məşhur Turlar</p>
+
+		<p class="c-main1-line c-main7-line"></p>
+
+
+
+		<div class="col-md-6 c-main7-left">
+			
+			<div class="c-main7-left-content">
+				
+				<div class="c-yeke-img">
+					<img class="c-yeke-img2" src="cImg/22.jpg" width="100%" height="100%">
+				</div>
+				
+
+				<p class="c-main7-left-header">Şəki Turu</p>
+
+				<p class="c-main7-left-content2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+
+				<p style="margin-top: 20px;"><span class="c-main7-qiymet">25 AZN</span><span class="c-main7-day"> - 2 gün 3 gecə</span></p>
+
+			</div>
+
+		</div>
+
+
+
+
+		<div class="col-md-6 c-main7-left">
+			
+			<div class="col-md-12 c-main7-right-content">
+				
+				<div class="col-xs-6">
+					<p class="c-main7-left-header ">İstanbul Turu</p>
+
+					<p class="c-main7-left-content2">Lorem ipsum dolor sit amet, consecteididuntna aliqua. Ut enim ad </p>
+
+					<p style="margin-top: 20px;"><span class="c-main7-qiymet">300 AZN</span> <span class="c-main7-day"> - 7 gün 6 gecə</span> </p>
+				</div>
+				
+
+				<div class="c-main7-right-img col-xs-6">
+						<img src="cImg/30.jpg" width="100%" height="100%" style="float: right;" class="c-main7-right-img2">
+					</div>
+
+			</div>
+
+
+
+			<div class="col-md-12 c-main7-right-content2">
+				
+				<div class="col-xs-6">
+					<p class="c-main7-left-header ">Trabzon Turu</p>
+
+					<p class="c-main7-left-content2">Lorem ipsum dolor sit amet, consecteididuntna aliqua. Ut enim ad </p>
+
+					<p style="margin-top: 20px;"><span class="c-main7-qiymet">150 AZN</span> <span class="c-main7-day"> - 7 gün 6 gecə</span> </p>
+				</div>
+				
+
+				<div class="c-main7-right-img col-xs-6">
+						<img src="cImg/31.jpg" width="100%" height="100%" style="float: right;" class="c-main7-right-img2">
+					</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	</div>
+	
+
+
+
+	<div class="c-main6 c-main10" >
+		<div class="c-main3-qaralti"></div>
+	</div>	
+
+
+
+	<div class="main-slider" data-aos="fade-left">
+
+		<p class="c-main1-header">Maraqlı Məlumatlar</p>
+
+		<p class="c-main1-line c-main7-line c-main-slider-line"></p>
+		
+		<div class="slider">
+		<div class="leftarrow" onclick="sola()"></div>
+
+		<div class="main2-dord-slider">
+					
+
+			<div class="main2-dord-boyukSlider">
+							
+
+
+
+				<div class="main2-dord-slider-bir">
+								
+					<div class="main2-dord-slider-bir-sol c1"></div>
+
+
+
+					<div class="main2-dord-slider-bir-sag">
+									
+						<p class="main2-dord-slider-bir-header">Qara Qızıl</p>
+
+						<p class="main2-dord-slider-bir-content">
+										
+                                     O, Yer kürəsində ən mühüm təbii enerji ehtiyatlarından sayılır. Neft elektrik enerjisinin əldə edilməsi və nəqliyyat vasitələrində yanacaq kimi istifadə edilir. Bundan əlavə neft kimya sənayesində süni materialların və başqa məhzulların alınmasında istifadə edilir. Buna görə də, o həm də "Qara qızıl" adlanır
+                                
+						</p>
+
+					</div>
+
+				</div>
+
+				<div class="main2-dord-slider-iki">
+								
+						<div class="main2-dord-slider-bir-sol c2"></div>
+
+
+
+						<div class="main2-dord-slider-bir-sag">
+									
+							<p class="main2-dord-slider-bir-header">Nobel Mükafatı</p>
+
+							<p class="main2-dord-slider-bir-content">
+										
+                                     
+                                     Nobel Mükafatları– illik beynəlxalq mükafat 27 noyabr 1895-ci il tarixli və 30 dekabr 1896-cı il tarixində Stokholmda açıqlanan vəsiyyətnaməsi ilə Alfred Nobel tərəfindən qurulan dərnəyin verdiyi, insanlığa xidmət edənlərə təqdim edilən prestijli mükafatdır.                               
+                                
+							</p>
+
+						</div>
+								
+					</div>
+
+							
+					<div class="main2-dord-slider-uc">
+								
+						<div class="main2-dord-slider-bir-sol c3"></div>
+
+
+
+						<div class="main2-dord-slider-bir-sag">
+									
+							<p class="main2-dord-slider-bir-header">
+										Bakıda Kinematoqrafiya
+									</p>
+
+									<p class="main2-dord-slider-bir-content">
+									
+                                      Bakıda "Amphibian Man" (1961), "Diamond Arm" (1968), "Dünya kifayət deyil" filmlərinin çəkilişləri - James Bond (1999) və bir çox digər uğurlu filmlərin səhnələri Bakıda çəkilib                                
+									</p>
+
+								</div>
+								
+							</div>
+
+							
+							<div class="main2-dord-slider-dord">
+								
+								<div class="main2-dord-slider-bir-sol c4"></div>
+
+
+
+								<div class="main2-dord-slider-bir-sag">
+									
+									<p class="main2-dord-slider-bir-header">Müsəlman Şərqindəki ilk opera</p>
+
+									<p class="main2-dord-slider-bir-content">
+									
+                                     Bakı 1908-ci ildə Üzeyir Hacıbəylinin "Leyli və Məcnun" operasının ifasında səhnələşdirilən Müsəlman Şərqində ilk opera olmuşdur.
+                                
+									</p>
+
+								</div>
+								
+							</div>
+						</div>
+							
+
+					</div>
+
+					<div class="rightarrow" onclick="saga()"></div>
+				
+	</div>
+
+	</div>
+
+
+	
+
+	<div class="c-main6 c-son" >
+		<div class="c-main3-qaralti"></div>
+	</div>
+
+
+	<div class="c-main-humans">
+
+		<p class="c-main1-header" style="margin-top: 30px; ">Hazırlayanlar</p>
+
+		<p class="c-main1-line" style="margin-top: 0px; background-color: #7B79CE"></p>
+		
+		<div class="col-md-6" style="margin-top: 50px;">
+			
+			<div class="c-main-human1">
+				
+				<div class="c-front">
+					
+					<img src="cImg/49.jpg" width="100%" height="100%">
+
+				</div>
+
+
+				<div class="c-back">
+					
+					<p class="c-back-header">Javid Lalayev</p>
+
+					<p class="c-back-header2">Junior Developer</p>
+
+					<div class="c-back-content">
+					
+						<div class="c-back-icon-div">
+							<a href="#" class="c-back-icons fa fa-facebook"></a>
+						</div>
+					
+						
+
+						<div class="c-back-icon-div">
+							<a href="#" class="c-back-icons fa fa-instagram"></a>
+						</div>
+
+
+						<div class="c-back-icon-div">
+							<a href="#" class="c-back-icons fa fa-youtube"></a>
+						</div>
+
+
+						<div class="c-back-icon-div">
+							<a href="#" class="c-back-icons fa fa-twitter"></a>
+						</div>
+
+
+						<div class="c-back-icon-div">
+							<a href="#" class="c-back-icons fa fa-linkedin"></a>
+						</div>
+
+					</div>
+					
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="col-md-6" style="margin-top: 50px; margin-bottom: 30px">
+			
+			<div class="c-main-human1">
+				
+				<div class="c-front">
+					
+					<img src="cImg/50.jpg" width="100%" height="100%">
+
+				</div>
+
+
+				<div class="c-back">
+					
+					<p class="c-back-header">Orxan Dasdemirli</p>
+
+					<p class="c-back-header2">Junior Developer</p>
+
+					<div class="c-back-content">
+					
+						<div class="c-back-icon-div">
+							<a href="#" class="c-back-icons fa fa-facebook"></a>
+						</div>
+					
+						
+
+						<div class="c-back-icon-div">
+							<a href="#" class="c-back-icons fa fa-instagram"></a>
+						</div>
+
+
+						<div class="c-back-icon-div">
+							<a href="#" class="c-back-icons fa fa-youtube"></a>
+						</div>
+
+
+						<div class="c-back-icon-div">
+							<a href="#" class="c-back-icons fa fa-twitter"></a>
+						</div>
+
+
+						<div class="c-back-icon-div">
+							<a href="#" class="c-back-icons fa fa-linkedin"></a>
+						</div>
+
+					</div>
+					
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+<footer class="section footer-section" id="c-Footer" data-aos="fade-up">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-sm-3 mb-5">
+            <h3>JavOr Travel</h3>
+            <ul class="list-unstyled link">
+              <li><a href="#" class="c-hov">Ana Səhifə</a></li>
+              <li><a href="#" class="c-hov" >Şərtlər &amp; Qaydalar</a></li>
+              <li><a href="#" class="c-hov">Gizlilik Siyasəti</a></li>
+              <li><a href="#" class="c-hov">Haqqimizda</a></li>
+             <li><a href="#" class="c-hov">Tariximiz</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3 mb-5">
+            <h3>Dəstək</h3>
+            <ul class="list-unstyled link">
+              <li><a href="#"  class="c-hov">Visa</a></li>
+              <li><a href="#" class="c-hov">Alışveriş</a></li>
+              <li><a href="#" class="c-hov">Otellər</a></li>
+              <li><a href="#" class="c-hov">Sponsorlar</a></li>
+              <li><a href="#" class="c-hov">Ortaq Şirkətlər</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3 mb-5 pr-md-5 contact-info">
+            <h3>Əlaqə</h3>
+            <p><span class="d-block c-hov" >Address:</span> <span>Bridge Plaza, 12 ci mərtəbə </span></p>
+            <p><span class="d-block c-hov">Əlaqə Nömrəsi:</span> <span> (+994)-55-851-04-02</span></p>
+            <p><span class="d-block c-hov">Email:</span> <span> cavidleleyev9a12014@gmail.com
+            orxandasdemirli@gmail.com</span></p>
+          </div>
+          <div class="col-sm-3 mb-5">
+            <h3>Daxil Ol</h3>
+            <p>Yeni xəbərlərdən məlumat almaq üçün daxil ol</p>
+            <form action="#" class="footer-newsletter">
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Sizin emailiniz...">
+                <button type="submit" class="btn"><span class="fa fa-paper-plane"></span></button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row bordertop text-center pt-5">
+          <p class="col-md-12">&copy; Copyright 2018. Bütün haqları qorunur. <br> Designed &amp; Developed by <a href="#" class="c-hov">Javid &amp; Orxan</a></p>
+            
+          <p class="col-md-12 social">
+            <a href="#" style="transition-duration: 0.3s;"><span class="fa fa-facebook"></span></a>
+            <a href="#" style="transition-duration: 0.3s;"><span class="fa fa-twitter"></span></a>
+            <a href="#" style="transition-duration: 0.3s;"><span class="fa fa-instagram"></span></a>
+            <a href="#" style="transition-duration: 0.3s;"><span class="fa fa-linkedin"></span></a>
+            <a href="#" style="transition-duration: 0.3s;"><span class="fa fa-youtube"></span></a>
+            
+          </p>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+  
+
+
+ 
+	<script type="text/javascript">
+	  $(document).ready(function(){
+	    $('.t-datepicker').tDatePicker({});
+	  });
+	</script>
+
+
+	<script type="text/javascript"><!--
+	google_ad_client = "ca-pub-2783044520727903";
+	/* jQuery_demo */
+	google_ad_slot = "2780937993";
+	google_ad_width = 728;
+	google_ad_height = 90;
+	//-->
+	</script>
+
+	<script type="text/javascript"
+	src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+	<script src="theme/js/t-datepicker.min.js"></script>
+
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-36251023-1']);
+	  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Yuxarı</button>
+
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+
+
+
+	
+
+
+
+<!-- The Modal -->
+<div id="c-myModal-login" class="c-modal-login">
+
+  <!-- Modal content -->
+  <div class="c-modal-content-login">
+    <div class="c-modal-body-login">
+      
+
+    		<span class="c-close-login">&times;</span>
+            <div class="c-page">
+        <div class="c-container">
+          <div class="c-left">
+            <div class="c-login">Daxil Ol</div>
+            <div class="c-eula">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mi</div>
+          </div>
+          <div class="c-right">
+            <svg viewBox="0 0 320 300">
+              <defs>
+                <linearGradient
+                                inkscape:collect="always"
+                                id="linearGradient"
+                                x1="13"
+                                y1="193.49992"
+                                x2="307"
+                                y2="193.49992"
+                                gradientUnits="userSpaceOnUse">
+                  <stop
+                        style="stop-color:white;"
+                        offset="0"
+                        id="stop876" />
+                  <stop
+                        style="stop-color:black;"
+                        offset="1"
+                        id="stop878" />
+                </linearGradient>
+              </defs>
+              <path fill="none" stroke="url(#linearGradient)"  stroke-dasharray="240 1386" stroke-width="3"  d="m 40,120.00016 239.99984,-3.2e-4 c 0,0 24.99263,0.79932 25.00016,35.00016 0.008,34.20084 -25.00016,35 -25.00016,35 h -239.99984 c 0,-0.0205 -25,4.01348 -25,38.5 0,34.48652 25,38.5 25,38.5 h 215 c 0,0 20,-0.99604 20,-25 0,-24.00396 -20,-25 -20,-25 h -190 c 0,0 -20,1.71033 -20,25 0,24.00396 20,25 20,25 h 168.57143" />
+            </svg>
+            
+            	<form action="#">
+            		<div class="c-form">
+		              <label for="email">Email</label>
+		              <input type="email" id="c-email" required="">
+		              <label for="password">Şifrə</label>
+		              <input type="password" id="c-password" required="">
+		              <input type="submit" id="c-submit" value="Daxil Ol">
+		            </div>
+            	</form>
+
+          </div>
+        </div>
+      </div>
+
+
+        <script>
+              var current = null;
+              document.querySelector('#c-email').addEventListener('focus', function(e) {
+              if (current) current.pause();
+              current = anime({
+                targets: 'path',
+                strokeDashoffset: {
+                  value: 0,
+                  duration: 700,
+                  easing: 'easeOutQuart'
+                },
+                strokeDasharray: {
+                  value: '240 1386',
+                  duration: 700,
+                  easing: 'easeOutQuart'
+                }
+              });
+            });
+            document.querySelector('#c-password').addEventListener('focus', function(e) {
+              if (current) current.pause();
+              current = anime({
+                targets: 'path',
+                strokeDashoffset: {
+                  value: -336,
+                  duration: 700,
+                  easing: 'easeOutQuart'
+                },
+                strokeDasharray: {
+                  value: '240 1386',
+                  duration: 700,
+                  easing: 'easeOutQuart'
+                }
+              });
+            });
+            document.querySelector('#c-submit').addEventListener('focus', function(e) {
+            if (current) current.pause();
+            current = anime({
+              targets: 'path',
+              strokeDashoffset: {
+                value: -730,
+                duration: 700,
+                easing: 'easeOutQuart'
+              },
+              strokeDasharray: {
+                value: '530 1386',
+                duration: 700,
+                easing: 'easeOutQuart'
+              }
+            });
+          });
+        </script>
+
+
+
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('c-myModal-login');
+
+// Get the button that opens the modal
+var btn = document.getElementById("c-myBtn-login");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("c-close-login")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+modal.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+
+
+<div id="c-myModal-login2" class="c-modal-login2">
+
+  <!-- Modal content -->
+  <div class="c-modal-content-login2">
+        <div class="c-modal-body-login2">
+          
+            <span class="c-close-login2">&times;</span>
+                
+            <div class="c-register">
+
+
+    <div class="c-register-left">
+        <p class="c-register-left-header">Qeydiyattan Keç</p>
+
+        <p class="c-register-left-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        </p>
+    </div>
+
+
+    <div class="c-register-right">
+
+      <p class="c-register-left-header2">Qeydiyat Formu</p>
+    
+      <!-- <div class="c-register-right-1" > -->
+        
+        <!-- <label style="margin-top: 0!important" class="c-register-right-name-surname">Ad</label> -->
+
+
+        <form action="#">
+        	<div class="col-md-6 margin0" >
+          <input class="effect-9 c-register-right-name-surname-input" type="text" placeholder="Adınızı daxil edin" required="">
+            <span class="focus-border">
+              <i></i>
+            </span>
+        </div>
+
+      <!-- </div> -->
+
+       <!-- <div class="c-register-right-1"> -->
+         
+        <!-- <label style="margin-top: 0!important" class="c-register-right-name-surname">Soyad</label> -->
+
+        <div class="col-md-6 margin0">
+          <input class="effect-9 c-register-right-name-surname-input" type="text" placeholder="Soyadınızı daxil edin" required="">
+            <span class="focus-border">
+              <i></i>
+            </span>
+        </div>
+
+       <!-- </div> -->
+
+
+       
+
+      <div class="col-md-12 margin0">
+
+      	<!-- <label class="c-register-right-name-surname">Email</label> -->
+
+
+          <input class="effect-9 c-register-right-name-surname-input" type="Email" placeholder="Emailinizi daxil edin" required="">
+            <span class="focus-border">
+              <i></i>
+            </span>
+        </div>
+
+
+
+      
+
+      <div class="col-md-12 margin0">
+
+      	<!-- <label class="c-register-right-name-surname">Şifrə</label> -->
+
+
+          <input class="effect-9 c-register-right-name-surname-input" type="password" placeholder="Şifrənizi daxil edin" required="">
+            <span class="focus-border">
+              <i></i>
+            </span>
+        </div>
+
+
+
+      
+
+      <div class="col-md-12 margin0">
+
+      	<!-- <label class="c-register-right-name-surname">Şifrə Təkrar</label> -->
+
+
+          <input class="effect-9 c-register-right-name-surname-input" type="password" placeholder="Şifrənizi yenidən daxil edin" required="">
+            <span class="focus-border">
+              <i></i>
+            </span>
+        </div>
+
+      <center>
+         <button  class="btn  slideLeft c-register-right-button">Qeydiyatı Təsdiqlə</button>
+      </center>
+
+        </form>
+             
+
+
+
+    </div>
+
+
+  </div>
+
+       </div>
+  </div>
+
+</div>
+
+
+
+<script>
+// Get the modal
+var modaliki = document.getElementById('c-myModal-login2');
+
+// Get the button that opens the modal
+var btniki = document.getElementById("c-myBtn-login2");
+
+// Get the <span> element that closes the modal
+var spaniki = document.getElementsByClassName("c-close-login2")[0];
+
+// When the user clicks the button, open the modal 
+btniki.onclick = function() {
+  modaliki.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+spaniki.onclick = function() {
+  modaliki.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+modaliki.onclick = function(event) {
+  if (event.target == modaliki) {
+    modaliki.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>

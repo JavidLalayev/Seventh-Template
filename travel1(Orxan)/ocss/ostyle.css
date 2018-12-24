@@ -1,0 +1,140 @@
+.cnav{
+	border-radius: 0px!important;
+	background-color: black;
+	opacity: 0.8;
+	margin-bottom: 0px;
+}
+
+.cNav-item{
+	transition-duration: 0.4s;
+	color: white!important;
+}
+
+.cNav-item:hover{
+	background-color: white;
+	color: black!important;
+}
+
+.c-nav-dropdown{
+	background-color: black!important;
+	opacity: 0.8;
+	color: white;
+	transition-duration: 0.4s;
+}
+
+.c-brend{
+	color: white!important;
+	font-weight: bold;
+	font-family: 'Berlin Sans FB Demi';
+	border-width: 6px;
+	border-style: 1px;
+	border-color: white
+}
+
+
+
+.odiv1{
+	width: 70%;
+	min-height:500px;
+	background: white;
+	margin-left: auto;
+	margin-right: auto; 
+	/*display: inline-block;*/
+	margin-top: 100px;
+}
+.opc1{
+	font-size: 40px;
+	font-family: 'Oleo Script', cursive;
+	color: #0943a0;
+}
+.opc2{
+	font-size: 16px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	color: #a5a5a5;
+	margin-bottom: 48px
+}
+.opc3{
+	/*font-family: 'Montserrat';*/
+    font-size: 18px;
+    line-height: 23px;
+    color: #818181;
+}
+.oitems{
+	max-width: 550px;
+	min-height: 148px;
+	background: white;
+	display: inline-block;
+	cursor: pointer;
+}
+.oitem1{
+	max-width: 275px;
+	height: 70px;
+	background: #f1f1f1;
+	margin-left: 10px;
+	float: left;;
+}
+.oitem2{
+	max-width: 275px;
+	height: 70px;
+	background: #f1f1f1;
+	margin-left: 10px;
+	/*float: left;*/;
+	float: left;
+
+
+}
+.oitem3{
+	max-width: 275px;
+	height: 70px;
+	background: #f1f1f1;
+	margin-left: 10px;
+	margin-top: 4px;
+	float: left;
+}
+.oitem4{
+	max-width: 275px;
+	height: 70px;
+	background: #f1f1f1;
+	margin-left: 9px;
+	margin-top: 4px;
+	float: left;
+}
+.oicon{
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	background: #f4c024;
+	display: inline-block;
+
+}
+.pcls{
+	/*float: right;*/
+	/*margin-right: 20px;*/
+	/*font-size: 18px;*/;
+	font-family: Bahnschrift;
+	text-align: center;
+	margin-top: 20px; 
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+	/*margin-right: 20px;*/
+}
+.oimg11{
+	width: 430px;
+}
+.oimg1{
+	max-width: 400px;
+	height: 450px;
+
+}
+.pcls1{
+	font-size: 24px;
+	color: #6abe45;
+	font-family: Arial Black;
+	float: right;
+	margin-top: 20px; 
+	margin-left: 10px;
+	margin-right: 7px;
+}
+
